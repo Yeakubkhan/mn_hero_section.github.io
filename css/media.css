@@ -1,0 +1,88 @@
+@media screen and (max-width: 320px){
+nav .content{
+    height: 35px;
+}
+.logo img{
+    height: 20px;
+    width: 20px;
+}
+.menu ul{
+    gap: 10px;
+    overflow: hidden;
+}
+.menu ul li a{
+    font-size: 11px;
+}
+.sing-up ul{
+    gap: 10px;
+}
+.sing-up ul li a{
+    font-size: 11px;
+    padding: 2px 4px;
+}
+
+/* header end*/
+
+main{
+    background-size: cover;
+    height: 50vh;
+    background-position: top;
+
+}
+main .content{
+    height: 50vh;
+}
+.titel h1{
+    font-size: 16px;
+}
+.titel p{
+    font-size: 10px;
+}
+.titel ul {
+    gap: 10px;
+}
+
+.titel ul li a {
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.titel ul li:first-child a {
+    background: #111;
+    color: white;
+}
+
+.titel ul li a:hover {
+    background: #111;
+    color: white;
+}
+.all-skill{
+    height: 50vh;
+}
+.skill ul{
+    height: 40vh;
+    gap: 10%;
+}
+.skill ul h2{
+    font-weight: 500;
+    font-size: 9px;
+    padding: 1.5px 5px;
+
+}
+.skill ul #web{
+    margin-left:35%;
+}
+.skill ul #api{
+    margin-left: 45%;
+}
+.skill ul #problem{
+    margin-left: 30%;
+}
+
+
+
+
+
+}
